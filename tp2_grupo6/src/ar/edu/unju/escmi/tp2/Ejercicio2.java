@@ -1,0 +1,26 @@
+package ar.edu.unju.escmi.tp2.ejercicio2;
+
+public class Ejercicio2 {
+
+    public static void main(String[] args) {
+
+        String nom1 = "Mateo Mendieta"; 
+        String nom2 = "Lautaro Mercado";
+        String nom3 = "David Palacios";
+        String nom4 = "Erick Neuman";
+        String nom5 = "Ignacio Jorqui";
+
+        int dni1 = 48142750;
+        int dni2 = 49109027;
+        int dni3 = 48017250;
+        int dni4 = 48909125;
+        int dni5 = 48142679;
+
+        System.out.println(nom1 + " - " + dni1);
+        System.out.println(nom2 + " - " + dni2);
+        System.out.println(nom3 + " - " + dni3);
+        System.out.println(nom4 + " - " + dni4);
+        System.out.println(nom5 + " - " + dni5);
+
+    }
+}
