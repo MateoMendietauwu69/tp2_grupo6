@@ -13,7 +13,7 @@ public class Ejercicio18 {
         if (num1 == num2) {
             System.out.println("Las referencias son iguales");
         } else {
-            System.out.println("Las referencias mo son iguales");
+            System.out.println("Las referencias no son iguales");
         }
 
         if (num1.equals(num2)) {
@@ -25,7 +25,7 @@ public class Ejercicio18 {
         num1 = 1000;
         num2 = 3000;
 
-        System.out.println("Segunda": num1 = 1000, num2 = 3000");
+        System.out.println("Segunda: num1 = 1000, num2 = 3000");
         System.out.println("Referencia de num1 es: " + System.identityHashCode(num1));
         System.out.println("Referencia de num2 es: " + System.identityHashCode(num2));
 
