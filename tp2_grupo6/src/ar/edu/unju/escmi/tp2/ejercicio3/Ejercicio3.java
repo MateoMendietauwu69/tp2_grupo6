@@ -14,3 +14,5 @@ public class Ejercicio3 {
         System.out.println("Meses en un año: " + MESES_ANIO);
     }
 }
+//rta: no es estrictamente necesario pero es lo mas adecuando se podria decir
+//ya que indica que la variable le pertenece a la clase y no a los objetos individuales que se creen a partir de ella
