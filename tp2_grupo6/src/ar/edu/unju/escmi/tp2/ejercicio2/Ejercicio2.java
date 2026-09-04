@@ -16,11 +16,12 @@ public class Ejercicio2 {
         int dni4 = 48909125;
         int dni5 = 48142679;
 
-        System.out.println(nom1 + " - " + dni1);
-        System.out.println(nom2 + " - " + dni2);
-        System.out.println(nom3 + " - " + dni3);
-        System.out.println(nom4 + " - " + dni4);
-        System.out.println(nom5 + " - " + dni5);
+        System.out.println(
+            nom1 + " - " + dni1 + "\n" +
+            nom2 + " - " + dni2 + "\n" +
+            nom3 + " - " + dni3 + "\n" +
+            nom4 + " - " + dni4 + "\n" +
+            nom5 + " - " + dni5);
 
     }
 }
