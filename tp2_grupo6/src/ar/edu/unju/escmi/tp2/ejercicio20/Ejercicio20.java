@@ -12,3 +12,5 @@ public class Ejercicio20 {
 
     }
 }
+//El valor de textoOriginal no cambia porque el metodo .replace no modifica esa variable
+//solo devuelve una nueva cadena de texto modificada que se guarda en textoModificado
