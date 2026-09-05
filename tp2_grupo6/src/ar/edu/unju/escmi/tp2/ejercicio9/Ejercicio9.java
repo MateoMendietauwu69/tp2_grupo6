@@ -6,6 +6,7 @@ public class Ejercicio9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a;
+        System.out.print("Ingresar el año: ");
         a = sc.nextInt();
         if(a%4==0 && a%100!=0)
             System.out.println("El año "+a+ " SI es bisiesto");
@@ -13,5 +14,6 @@ public class Ejercicio9 {
             System.out.println("El año "+a+ " SI es bisiesto");
         else 
             System.out.println("El año "+a+ " NO es bisiesto");
+        sc.close();
     }
 }
